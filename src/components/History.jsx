@@ -1,4 +1,4 @@
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../context/AuthContext";
 import { calculateCurrentCaffeineLevel, getCaffeineAmount, timeSinceConsumption } from "../utils";
 
 export default function History() {

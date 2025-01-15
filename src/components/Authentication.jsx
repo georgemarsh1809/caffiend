@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useAuth } from "../context/authContext"
+import { useAuth } from "../context/AuthContext"
 
 export default function Authentication(props) {
     const [isRegistration, setIsRegistration] = useState(false) // Signing in or signing up?

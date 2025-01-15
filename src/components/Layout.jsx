@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Authentication from "./Authentication"
 import Modal from "./Modal"
-import { useAuth } from "../context/authContext"
+import { useAuth } from "../context/AuthContext"
 
 export default function Layout(props) {
     const { children } = props
